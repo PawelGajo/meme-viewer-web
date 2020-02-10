@@ -1,0 +1,20 @@
+.image-container {
+    padding-bottom: 50px;
+    background-color: #555;
+}
+.logo {
+  width: 110px;
+}
+.description {
+  margin-left: 10px;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.content-img {
+  width: 600px;
+  margin: auto;
+}

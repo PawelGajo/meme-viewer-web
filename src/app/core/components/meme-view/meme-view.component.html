@@ -1,3 +1,8 @@
-<div *ngFor=" let i of memes.content">  
-    <img [src]="i.img">
+<div infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScroll()" class="container">
+    <div *ngFor=" let i of memes" class="image-container">
+        <div class="content-img">
+            <div><img class="logo" [src]="i.logo"><span class="description">{{i.description}}</span></div>
+            <img [src]="i.img">
+        </div>  
+    </div>
 </div>
