@@ -1,0 +1,14 @@
+.nav {
+    background-color: black;
+    height: 3em;
+}
+.logo {
+    height: 40px;
+}
+.logo_label {
+    padding-left: 10px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 500;
+    vertical-align: bottom;
+}

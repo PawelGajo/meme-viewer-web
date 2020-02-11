@@ -1,8 +1,11 @@
-<div infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScroll()" class="container">
-    <div *ngFor=" let i of memes" class="image-container">
-        <div class="content-img">
-            <div><img class="logo" [src]="i.logo"><span class="description">{{i.description}}</span></div>
-            <img [src]="i.img">
-        </div>  
+<div class="container">
+    <div infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
+        <div *ngFor=" let i of memes" class="row image-container">
+            <div class="col-xs-1 content-img">
+                <div class="logo-wrapper" [ngStyle]="{'background-image': 'url(' + i.logo + ')'}"></div>
+                <div class="description">{{i.description}}</div>
+                <img [src]="i.img">
+            </div>
+        </div>
     </div>
 </div>

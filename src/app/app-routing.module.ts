@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { MemeViewComponent } from './core/components/meme-view/meme-view.component';
+import { ContainerComponent } from './core/components/container/container.component';
 
 
 const routes: Routes = [
-  { path: '**', component: MemeViewComponent }
+  { path: '**', component: ContainerComponent }
 ];
 
 @NgModule({
