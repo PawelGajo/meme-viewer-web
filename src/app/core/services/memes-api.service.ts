@@ -9,6 +9,6 @@ export class MemesApiService {
   constructor(private http: HttpClient) { }
 
   getImages( page: number) {
-    return this.http.get<any>( `http://localhost:8000/page/${page}`);
+    return this.http.get<any>( `https://meme-viewer--pawelgajo.repl.co/page/${page}`);
   }
 }
