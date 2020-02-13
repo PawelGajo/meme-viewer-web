@@ -1,6 +1,7 @@
 .nav {
     background-color: black;
     height: 3em;
+    box-shadow: 0 4px 2px -2px gray;
 }
 .logo {
     height: 40px;
@@ -8,6 +9,7 @@
 .logo_label {
     padding-left: 10px;
     color: white;
+    font-family: Impact;
     font-size: 1.6em;
     font-weight: 500;
     vertical-align: bottom;
