@@ -1,6 +1,6 @@
 # MemeViewerWeb
 
-[View live demo on StackBlitz](https://stackblitz.com/github/PawelGajo/meme-wiever-web)
+[View live demo on StackBlitz](https://stackblitz.com/github/PawelGajo/meme-viewer-web)
 
 A simple application that retrieves img sources from the server. [Server repo here](https://github.com/PawelGajo/meme-viewer).
 The server is scraping sources from pages defined in the `pagesConfig.js`.
