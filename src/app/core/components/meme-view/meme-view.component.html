@@ -1,5 +1,8 @@
 <div class="container">
     <div infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
+        <div *ngIf="!memes.length"class ="row">
+            <div class="col-xs-1 lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
         <div *ngFor=" let i of memes" class="row image-container">
             <div class="col-xs-1 content-img">
                 <div class="logo-wrapper" [ngStyle]="{'background-image': 'url(' + i.logo + ')'}"></div>
